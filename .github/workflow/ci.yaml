@@ -25,5 +25,6 @@ jobs:
       - name: Docker Build and Push
         uses: docker/build-push-action@v7
         with:
+          context: .
           push: true
           tags: sanket9552/app:latest
