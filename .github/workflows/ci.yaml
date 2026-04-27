@@ -1,8 +1,9 @@
 name: CI workflow
 
 on:
-    push:
-
+  push:
+    branches:
+      - '**'
 jobs:
     build:   #job name and will run on ubuntu:latest
         runs-on: ubuntu:latest #github free runners
