@@ -6,7 +6,7 @@ on:
       - '**'
 jobs:
     build:   #job name and will run on ubuntu:latest
-        runs-on: ubuntu:latest #github free runners
+        runs-on: ubuntu-latest #github free runners
         steps:
             - name: Checkout code 
               uses: actions/checkout@v4  #clone the code into runner | v4 is most popular one
