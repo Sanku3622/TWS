@@ -26,5 +26,6 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           context: .
+          file: ./Dockerfile
           push: true
           tags: sanket9552/app:latest
